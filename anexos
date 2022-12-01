@@ -1,0 +1,4 @@
+- correr el siguiente escript para que sea instalado en los clientes:
+New-SelfSignedCertificate -Subject "ulluna.com" -TextExtension @("2.5.29.17={text}DNS=ulluna.com&IPAddress=192.168.0.118&IPAddress=::1")
+- la ip: 192.1638.0.118, se cambia con la misma ip estatica de la computadora host, que debe ser la misma que esta en el archivo windows/sistem32/driver/etc/host
+-ulluna.com debe ser el mismo nombre que se utiliza en iiserver tanto para el nombre del sitio com para el nombre de la carpeta dentro de inetpub/wwwroot/ulluna.com
